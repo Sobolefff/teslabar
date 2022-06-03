@@ -1,5 +1,6 @@
 .header {
     background-image: url(../../images/header_back.jpg);
+    background-position: center;
     width: 100%;
     min-height: 815px;
     display: flex;
