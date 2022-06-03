@@ -1,0 +1,10 @@
+.header__link {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header__link:nth-last-of-type(n+1) {
+    margin-left: 35px;
+}

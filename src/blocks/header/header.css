@@ -1,0 +1,8 @@
+.header {
+    background-image: url(../../images/header_back.jpg);
+    width: 100%;
+    min-height: 815px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
