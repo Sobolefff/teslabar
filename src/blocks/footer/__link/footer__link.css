@@ -1,0 +1,8 @@
+.footer__link {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__link:nth-child(n+2) {
+    margin-left: 30px;
+}

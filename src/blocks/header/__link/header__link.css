@@ -1,10 +1,16 @@
 .header__link {
+    box-sizing: border-box;
     color: white;
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
 }
 
-.header__link:nth-last-of-type(n+1) {
+.header__link:nth-of-type(n+2) {
     margin-left: 35px;
 }

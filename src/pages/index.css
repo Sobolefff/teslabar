@@ -1,9 +1,38 @@
+@import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__icon/header__icon.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__description/header__description.css);
 @import url(../blocks/header/__contact/header__contact.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__benefits/about__benefits.css);
+@import url(../blocks/benefit/benefit.css);
+@import url(../blocks/benefit/__icon/benefit__icon.css);
+@import url(../blocks/benefit/__description/benefit__description.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__description/about__description.css);
+
+
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__list/services__list.css);
+@import url(../blocks/services/__list-item/services__list-item.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__link/menu__link.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__contact/contacts__contact.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

@@ -1,9 +1,9 @@
-.header__title {
+.about__title {
+    margin: 115px auto 0;
     font-family: 'Traveling _Typewriter';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
     line-height: 77px;
-    padding: 0;
-    margin: 194px auto 0;
+    text-align: center;
 }

@@ -1,12 +1,13 @@
 .page {  
-    max-width: 1280px;
+    max-width: 1440px;
     height: auto;
     background-color: #000000;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 115px;
     box-sizing: border-box;
     display: flex;
     flex-flow: column;
-    align-items: center;
+    align-items: stretch;
     color: #F8F8F8;
+    font-family: 'Montserrat', Arial, sans-serif;
 }
