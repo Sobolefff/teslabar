@@ -1,9 +1,9 @@
 import '../pages/index.css';
 
 //slider
-const container = document.querySelector('.gallery__slider');
+//const container = document.querySelector('.gallery__slider');
 const slider = document.querySelector('.gallery__sliderline');
-const slide = document.querySelector('.gallery__slide');
+//const slide = document.querySelector('.gallery__slide');
 const slides = document.querySelectorAll('.gallery__slide');
 const arr = [];
 const btnPrev = document.querySelector('.gallery__button-left');
@@ -30,7 +30,7 @@ btnPrev.addEventListener('click', () => {
 function draw() {
   let img = document.createElement('img');
   img.src = arr[step];
-  img.classList.add('slide');
+  img.classList.add('gallery__slide');
   slider.prepend(img);
   step++;
   console.log(img.src);
