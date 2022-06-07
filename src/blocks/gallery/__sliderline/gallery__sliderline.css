@@ -1,0 +1,6 @@
+.gallery__sliderline {
+    display: flex;
+    transition: all ease 0.3s;
+    width: 100%;
+    height: 165px;
+}
