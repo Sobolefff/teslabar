@@ -18,9 +18,9 @@
 .about__description{font-family:Montserrat;font-size:20px;font-style:normal;font-weight:500;line-height:24px;margin:30px 0 0;max-width:976px;text-align:center}
 .gallery{align-items:center;display:flex;flex-direction:column;width:100%}
 .gallery__viewer{width:100%}
-.gallery__slider{outline:solid red;overflow:hidden;width:100%}
+.gallery__slider{outline:solid red;width:100%}
 .gallery__slide{margin:0 0 0 30px;width:160px}
-.gallery__sliderline{display:flex;height:165px;transition:all .3s ease;width:100%}
+.gallery__sliderline{display:flex;height:160px;left:-25px;position:relative;transition:all .3s ease;width:100%}
 .services{align-items:center;display:flex;flex-direction:column}
 .services__title{font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:37px;margin:115px 0 0}
 .services__list{margin:35px 0 0;max-width:1140px;width:100%}
