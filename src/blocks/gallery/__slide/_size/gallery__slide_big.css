@@ -1,0 +1,7 @@
+.gallery__slide_big {
+    max-height: 815px;
+    height: 100%;
+}
+.slick-slide {
+    object-fit: contain;
+}

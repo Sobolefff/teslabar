@@ -1,20 +1,12 @@
-const gallery = [
-    {
-      src: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg'
-    },
-    {
-      src: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg'
-    },
-    {
-      src: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/ivanovo.jpg'
-    },
-    {
-      src: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg'
-    },
-    {
-      src: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg'
-    },
-    {
-      src: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg'
-    }
+export const gallery = [
+'../../images/slides/1.jpg',
+'../images/slides/2.jpg',
+'../images/slides/3.jpg',
+'../images/slides/4.jpg',
+'../images/slides/5.jpg',
+'../images/slides/6.jpg',
+'../images/slides/7.jpg',
+'../images/slides/8.jpg',
+'../images/slides/9.jpg',
+'../images/slides/10.jpg'
 ];

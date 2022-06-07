@@ -1,3 +1,5 @@
+@import url(../vendor/slick/slick.css);
+@import url(../vendor/slick/slick-theme.css);
 @import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
@@ -23,6 +25,7 @@
 @import url(../blocks/gallery/__viewer/gallery__viewer.css);
 @import url(../blocks/gallery/__slider/gallery__slider.css);
 @import url(../blocks/gallery/__slide/gallery__slide.css);
+@import url(../blocks/gallery/__slide/_size/gallery__slide_big.css);
 @import url(../blocks/gallery/__sliderline/gallery__sliderline.css);
 
 @import url(../blocks/services/services.css);
