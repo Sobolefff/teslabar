@@ -5,6 +5,7 @@
     line-height: 30px;
     text-align: center;
     margin: 55px auto 0;
+    max-width: 299px;
 }
 
 .header__contact:last-of-type {
