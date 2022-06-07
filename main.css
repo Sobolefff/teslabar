@@ -9,7 +9,7 @@
 .header__icon{align-self:flex-end;border:none;height:22px;margin:0;outline:none;padding:0;width:22px}
 .header__title{font-family:Traveling _Typewriter;font-size:60px;font-style:normal;font-weight:400;line-height:77px;margin:194px auto 0;padding:0}
 .header__description{font-size:25px;font-style:normal;font-weight:500;line-height:30px;margin:15px auto 0}
-.header__contact{font-size:25px;font-style:normal;font-weight:500;line-height:30px;margin:55px auto 0;text-align:center}.header__contact:last-of-type{margin-top:15px}
+.header__contact{font-size:25px;font-style:normal;font-weight:500;line-height:30px;margin:55px auto 0;max-width:299px;text-align:center}.header__contact:last-of-type{margin-top:15px}
 .content{align-items:stretch;display:flex;flex-direction:column}
 .about{align-items:center;display:flex;flex-direction:column;padding-bottom:115px;width:100%}
 .about__benefits{display:flex;justify-content:space-between;list-style-type:none;margin:115px 0 0;max-width:1110px;padding:0;width:100%}
@@ -29,11 +29,11 @@
 .services__list{margin:35px 0 0;max-width:1140px;width:100%}
 .services__list-item{font-family:Montserrat;font-size:20px;font-style:normal;font-weight:500;line-height:24px;margin-left:0;padding-left:10px;text-align:center}.services__list-item:nth-of-type(n+2){margin-top:30px}
 .menu{align-items:center;background-image:url(3995358cedc37b90ec85.jpg);display:flex;flex-direction:column;justify-content:center;margin:115px 0 0;min-height:700px;width:100%}
-.menu__link{background:rgba(0,0,0,.3);border:3px solid #f8f8f8;border-radius:10px;box-sizing:border-box;color:#fff;cursor:pointer;display:block;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:600;height:50px;line-height:22px;margin:0;padding:12px 0;text-align:center;text-decoration:none;width:155px}.menu__link:nth-of-type(n+2){margin-top:30px}
+.menu__link{background:rgba(0,0,0,.3);border:2px solid #f8f8f8;border-radius:10px;box-sizing:border-box;color:#fff;cursor:pointer;display:block;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:600;height:50px;line-height:22px;margin:0;padding:12px 0;text-align:center;text-decoration:none;width:155px}.menu__link:nth-of-type(n+2){margin-top:30px}
 .contacts{align-items:center;align-self:center;box-sizing:border-box;display:flex;flex-direction:column;max-width:569px;padding:115px 0}
 .contacts__contact{font-family:Montserrat;font-size:25px;font-style:normal;font-weight:500;line-height:30px;margin:0;padding:0;text-align:center}.contacts__contact:nth-child(3),.contacts__contact:nth-child(4){margin-top:30px}
-.footer{align-items:center;display:flex;flex-direction:column}
-.footer__logo{border-radius:50%}
+.footer{align-items:center;border-top:2px solid #8f8f8f;display:flex;flex-direction:column}
+.footer__logo{border-radius:50%;margin-top:55px}
 .footer__social{align-items:center;display:flex;margin-top:25px}
 .footer__link{margin:0;padding:0}.footer__link:nth-child(n+2){margin-left:30px}
 .footer__copyright{color:#8f8f8f;font-family:Montserrat;font-size:25px;font-style:normal;font-weight:500;line-height:30px;margin:80px 0 0;max-width:558px;padding:0}
