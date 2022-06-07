@@ -18,9 +18,10 @@ $(function(){
         slidesToShow: 7,
         slidesToScroll: 1,
         asNavFor: '.gallery__viewer',
-        dots: false,
+        dots: true,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        arrows: false,
     });
 
 });
