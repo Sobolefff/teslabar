@@ -1,7 +1,17 @@
 .gallery__slide {
     margin: 0;
+    box-sizing: border-box;
+
 }
 
-.gallery__slide:nth-of-type(n+2) {
-    margin-left: 30px;
+.gallery__slide:hover {
+    border: 3px solid #AD0606;
 }
+
+@media (max-width: 1440px) {
+    .gallery__slide {
+        max-height: 25vw;
+        max-width: 25vw;
+    }
+}
+

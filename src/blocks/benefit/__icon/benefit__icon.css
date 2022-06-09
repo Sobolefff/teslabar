@@ -1,3 +1,11 @@
 .benefit__icon {
-    
+    width: 72px;
+    height: 72px;
+}
+
+@media (max-width: 1024px) {
+    .benefit__icon {
+        width: 50px;
+        height: 50px;
+    }
 }

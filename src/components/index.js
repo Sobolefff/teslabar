@@ -1,27 +1,30 @@
 import '../pages/index.css';
-import '../vendor/slick/slick.min.js';
 
-const $ = require('jquery');
+import { carousel, popup } from './carousel.js';
 
-$(function(){
+carousel();
+popup();
 
-    $('.gallery__viewer').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.gallery__sliderline',
-        centerMode: true,
-    });
+/*
+import {
+    image,
+    popupImage,
+    allImages,
+} from './const.js';
 
-    $('.gallery__sliderline').slick({
-        slidesToShow: 7,
-        slidesToScroll: 1,
-        asNavFor: '.gallery__viewer',
-        dots: true,
-        centerMode: true,
-        focusOnSelect: true,
-        arrows: false,
-    });
+import {
+    openPopup,
+    closePopup
+} from './modal.js';
 
+popupImage.addEventListener('mousedown', (evt) => {
+    if (evt.target.classList.contains('popup__close-button') || evt.target.classList.contains('popup_opened')) {
+      closePopup(popupImage)
+    }
 });
+
+allImages.forEach(image => {
+    image.addEventListener('click', function () {
+        openPopup(popupImage);
+    });
+});*/

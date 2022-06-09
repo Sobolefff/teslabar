@@ -1,9 +1,16 @@
 .header {
     background-image: url(../../images/header_back.jpg);
-    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
     min-height: 815px;
     display: flex;
     flex-flow: column;
     align-items: center;
+}
+
+@media (max-width: 1440px) {
+    .header {
+        min-height: 56.6vw;
+    }
 }

@@ -51,5 +51,10 @@ module.exports = {
         }),
         new CleanWebpackPlugin(),
         new MiniCssExtractPlugin(),
+        new webpack.ProvidePlugin ({
+          $: "jquery",
+          jQuery: "jquery",
+          "window.jQuery": "jquery",
+        }),
       ]
 };

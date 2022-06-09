@@ -17,6 +17,7 @@
             <a class="header__link" href="https://instagram.com/teslabarspb" target="_blank"><img class="header__icon" src="<%=require('./images/icons/inst.svg')%>" alt="Insta"></a>
             <a class="header__link" href="https://t.me/+4iVs4CUd4_QyZjUy" target="_blank"><img class="header__icon" src="<%=require('./images/icons/tg.svg')%>" alt="TG"></a>
             <a class="header__link" href="#about">О нас</a>
+            <a class="header__link" href="#gallery">Фото</a>
             <a class="header__link" href="#menu">Меню</a>
             <a class="header__link" href="#contacts">Контакты</a>
             
@@ -30,16 +31,26 @@
         <section class="about" id="about">
             <ul class="about__benefits">
                 <li class="benefit">
-                    <img src="<%=require('./images/cocktail.png')%>" alt="cocktail" class="benefit__icon">
-                    <p class="benefit__description">Более 30 видов коктейлей</p>
+                    <a href="#" class="benefit">
+                        <svg class="benefit__icon" viewBox="0 0 73 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M39.5 23L55.5 4M36.5 44V67V44ZM20.5 67H52.5H20.5ZM61.5 11L49 27.5L36.5 44L24 27.5L11.739 11.315L61.5 11ZM11.739 11.315L11.5 11L11.739 11.315Z" stroke="#F8F8F8" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p class="benefit__description">Более 30 видов коктейлей</p>
+                    </a>
                 </li>
                 <li class="benefit">
-                    <img src="<%=require('./images/turntable.svg')%>" alt="dj pult" class="benefit__icon">
-                    <p class="benefit__description">Dj-сеты по выходным</p>
+                        <svg class="benefit__icon" viewBox="0 0 73 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.5 12C30.1421 12.0237 24.0514 14.5599 19.5556 19.0556C15.0599 23.5514 12.5237 29.6421 12.5 36M36.5 20.43C32.3706 20.43 28.4103 22.0704 25.4904 24.9903C22.5704 27.9103 20.93 31.8706 20.93 36M36.5 51.57C40.6294 51.57 44.5897 49.9296 47.5097 47.0097C50.4296 44.0897 52.07 40.1294 52.07 36M36.5 60.075C42.8579 60.0513 48.9486 57.5151 53.4444 53.0194C57.9401 48.5236 60.4763 42.4329 60.5 36.075M36.5 3.75C30.1216 3.75 23.8864 5.64143 18.5829 9.18511C13.2794 12.7288 9.14583 17.7655 6.7049 23.6585C4.26397 29.5514 3.62532 36.0358 4.86969 42.2917C6.11406 48.5476 9.18558 54.294 13.6958 58.8042C18.2061 63.3144 23.9525 66.386 30.2084 67.6303C36.4642 68.8747 42.9486 68.236 48.8416 65.7951C54.7345 63.3542 59.7712 59.2206 63.3149 53.9171C66.8586 48.6137 68.75 42.3784 68.75 36C68.746 27.448 65.347 19.2474 59.2998 13.2002C53.2526 7.15301 45.052 3.75397 36.5 3.75ZM36.5 26.79C38.3216 26.79 40.1022 27.3302 41.6168 28.3422C43.1314 29.3542 44.3119 30.7926 45.0089 32.4755C45.706 34.1584 45.8884 36.0102 45.533 37.7968C45.1777 39.5833 44.3005 41.2244 43.0125 42.5125C41.7244 43.8005 40.0834 44.6777 38.2968 45.033C36.5102 45.3884 34.6584 45.206 32.9755 44.5089C31.2926 43.8118 29.8542 42.6314 28.8422 41.1168C27.8302 39.6022 27.29 37.8216 27.29 36C27.29 33.5574 28.2604 31.2148 29.9876 29.4875C31.7148 27.7603 34.0574 26.79 36.5 26.79Z" stroke="#F8F8F8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p class="benefit__description">Dj-сеты по выходным</p>
                 </li>
                 <li class="benefit">
-                    <img src="<%=require('./images/burger.svg')%>" alt="burgerr" class="benefit__icon">
-                    <p class="benefit__description">Авторское меню закусок</p>
+                    <a href="#" class="benefit">
+                        <svg class="benefit__icon" viewBox="0 0 73 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.225 28.6875H58.775C59.359 28.6899 59.936 28.5594 60.4622 28.3061C60.9884 28.0527 61.4501 27.683 61.8125 27.225C62.1838 26.7656 62.4494 26.2302 62.5903 25.6566C62.7313 25.083 62.7442 24.4854 62.6281 23.9062C61.6437 19.2656 58.4375 15.0188 53.6 11.9531C48.7625 8.8875 42.7719 7.3125 36.5 7.3125C30.2281 7.3125 24.1531 8.97187 19.4 11.9531C14.6469 14.9344 11.3562 19.2656 10.3719 23.9062C10.2558 24.4854 10.2687 25.083 10.4097 25.6566C10.5506 26.2302 10.8162 26.7656 11.1875 27.225C11.5499 27.683 12.0116 28.0527 12.5378 28.3061C13.064 28.5594 13.641 28.6899 14.225 28.6875ZM13.6906 24.6094C15.35 16.6781 25.1656 10.6875 36.5 10.6875C47.8344 10.6875 57.65 16.6781 59.3094 24.6094C59.3284 24.6969 59.3281 24.7875 59.3087 24.8749C59.2893 24.9623 59.2511 25.0444 59.1969 25.1156C59.1436 25.1753 59.0787 25.2235 59.0062 25.2574C58.9336 25.2912 58.855 25.31 58.775 25.3125H14.225C14.145 25.31 14.0664 25.2912 13.9938 25.2574C13.9213 25.2235 13.8564 25.1753 13.8031 25.1156C13.7489 25.0444 13.7107 24.9623 13.6913 24.8749C13.6719 24.7875 13.6716 24.6969 13.6906 24.6094ZM64.0063 43.425L53.375 47.6719L42.7437 43.425C42.3434 43.2835 41.9066 43.2835 41.5063 43.425L30.875 47.6719L20.2437 43.425C19.8434 43.2835 19.4066 43.2835 19.0063 43.425L7.75625 47.925C7.34251 48.0941 7.01108 48.4179 6.83248 48.8276C6.65389 49.2373 6.64223 49.7006 6.8 50.1187C6.92451 50.4347 7.14144 50.7057 7.42244 50.8964C7.70343 51.087 8.03542 51.1885 8.375 51.1875C8.58665 51.1912 8.79695 51.153 8.99375 51.075L12.3125 49.7531V51.75C12.3125 54.5845 13.4385 57.3029 15.4428 59.3072C17.4471 61.3115 20.1655 62.4375 23 62.4375H50C52.8345 62.4375 55.5529 61.3115 57.5572 59.3072C59.5615 57.3029 60.6875 54.5845 60.6875 51.75V48.4031L65.2437 46.575C65.4506 46.4937 65.6394 46.3725 65.7994 46.2183C65.9594 46.0641 66.0874 45.8799 66.1762 45.6762C66.265 45.4725 66.3128 45.2533 66.3169 45.0311C66.321 44.8089 66.2813 44.5881 66.2 44.3813C66.1187 44.1744 65.9975 43.9856 65.8433 43.8256C65.6891 43.6656 65.5049 43.5376 65.3012 43.4488C65.0975 43.36 64.8783 43.3122 64.6561 43.3081C64.4339 43.304 64.2131 43.3437 64.0063 43.425ZM57.3125 51.75C57.3051 53.6871 56.5323 55.5428 55.1625 56.9125C53.7928 58.2823 51.9371 59.0551 50 59.0625H23C21.0629 59.0551 19.2072 58.2823 17.8375 56.9125C16.4677 55.5428 15.6949 53.6871 15.6875 51.75V48.4031L19.625 46.8281L30.2563 51.075C30.6566 51.2165 31.0934 51.2165 31.4937 51.075L42.125 46.8281L52.7563 51.075C53.1566 51.2165 53.5934 51.2165 53.9937 51.075L57.3125 49.7531V51.75ZM67.4375 36C67.4375 36.4476 67.2597 36.8768 66.9432 37.1932C66.6268 37.5097 66.1976 37.6875 65.75 37.6875H7.25C6.80245 37.6875 6.37322 37.5097 6.05676 37.1932C5.74029 36.8768 5.5625 36.4476 5.5625 36C5.5625 35.5524 5.74029 35.1232 6.05676 34.8068C6.37322 34.4903 6.80245 34.3125 7.25 34.3125H65.75C66.1976 34.3125 66.6268 34.4903 66.9432 34.8068C67.2597 35.1232 67.4375 35.5524 67.4375 36Z" fill="#F8F8F8"/>
+                        </svg>
+                        <p class="benefit__description">Авторское меню закусок</p>
+                    </a>
                 </li>
             </ul>
             <h2 class="about__title">Tesla Bar</h2>
@@ -54,54 +65,30 @@
             </p>
         </section>
 
-        <section class="gallery">
-                <div class="gallery__viewer">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/1.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/2.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/3.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/4.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/5.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/6.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/7.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/8.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/9.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/10.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/11.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/12.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/13.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/14.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/15.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/16.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/17.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/18.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/19.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/20.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/21.jpg')%>" alt="">
-                    <img class="gallery__slide_big" src="<%=require('./images/slides_big/22.jpg')%>" alt="">
-                </div>
+        <section class="gallery" id="gallery">
                 <div class="gallery__sliderline">
-                    <img class="gallery__slide" src="<%=require('./images/slides/1.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/2.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/3.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/4.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/5.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/6.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/7.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/8.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/9.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/10.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/11.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/12.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/13.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/14.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/15.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/16.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/17.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/18.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/19.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/20.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/21.jpg')%>" alt="">
-                    <img class="gallery__slide" src="<%=require('./images/slides/22.jpg')%>" alt="">
+                    <a href="<%=require('./images/slides_big/1.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/1.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/2.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/2.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/3.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/3.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/4.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/4.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/5.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/5.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/6.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/6.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/7.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/7.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/8.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/8.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/9.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/9.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/10.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/10.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/11.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/11.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/12.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/12.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/13.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/13.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/14.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/14.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/15.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/15.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/16.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/16.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/17.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/17.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/18.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/18.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/19.jpg')%>" class="gallery__ref" ><img class="gallery__slide" src="<%=require('./images/slides/19.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/20.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/20.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/21.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/21.jpg')%>" alt=""></a>
+                    <a href="<%=require('./images/slides_big/22.jpg')%>" class="gallery__ref"><img class="gallery__slide" src="<%=require('./images/slides/22.jpg')%>" alt=""></a>
                 </div>
         </section>
 

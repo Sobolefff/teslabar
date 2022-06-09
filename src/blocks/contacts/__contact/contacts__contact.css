@@ -16,3 +16,20 @@
 .contacts__contact:nth-child(4) {
     margin-top: 30px;
 }
+
+@media (max-width: 1024px) {
+    .contacts__contact {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .contacts__contact:nth-child(n+2) {
+        margin-top: 10px;
+    }
+    .contacts__contact:nth-child(3) {
+        margin-top: 30px;
+    }
+    
+    .contacts__contact:nth-child(4) {
+        margin-top: 30px;
+    }
+}

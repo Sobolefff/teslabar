@@ -6,3 +6,9 @@
     font-size: 30px;
     line-height: 37px;
 }
+
+@media (max-width: 1024px) {
+    .services__title {
+        margin: 65px 0 0 0;
+    }
+}

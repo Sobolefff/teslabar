@@ -1,3 +1,35 @@
 .gallery__sliderline {
+    position: relative;
+}
 
+.slick-track {
+    line-height: 0;
+}
+
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -45px;
+}
+.slick-dots li {
+    list-style: none;
+}
+.slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 2px solid #8F8F8F;
+    border-radius: 50%;
+}
+.slick-dots li button::before {
+    content: '';
+}
+
+li.slick-active button {
+    background-color: red;
+    border: none;
+    width: 15px;
+    height: 15px;
 }

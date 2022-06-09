@@ -7,3 +7,10 @@
     max-width: 569px;
     align-self: center;
 }
+
+@media (max-width: 1024px) {
+    .contacts {
+        max-width: 405px;
+        padding: 65px 0;
+    }
+}

@@ -1,12 +1,12 @@
-export const gallery = [
-'../../images/slides/1.jpg',
-'../images/slides/2.jpg',
-'../images/slides/3.jpg',
-'../images/slides/4.jpg',
-'../images/slides/5.jpg',
-'../images/slides/6.jpg',
-'../images/slides/7.jpg',
-'../images/slides/8.jpg',
-'../images/slides/9.jpg',
-'../images/slides/10.jpg'
-];
+const image = document.querySelector('.gallery__slide');
+const popupImage = document.querySelector('#popup-viewing');
+const popupImageClose = popupImage.querySelector('.popup__close-button');
+const allImages = Array.from(document.querySelectorAll('.gallery__slide'));
+const sliderLine = document.querySelector('.gallery');
+export {
+    image,
+    popupImage,
+    popupImageClose,
+    allImages,
+    sliderLine
+};

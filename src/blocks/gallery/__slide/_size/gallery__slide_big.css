@@ -1,7 +1,10 @@
 .gallery__slide_big {
-    max-height: 815px;
-    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
-.slick-slide {
-    object-fit: contain;
+
+@media (max-width: 1024px) {
+    .gallery__slide_big {
+        
+    }
 }

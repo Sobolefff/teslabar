@@ -11,3 +11,14 @@
 .header__contact:last-of-type {
     margin-top: 15px;
 }
+
+@media (max-width: 1280px) {
+    .header__contact {
+        margin: 25px auto 0;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .header__contact:last-of-type {
+        margin-top: 5px;
+    }
+}

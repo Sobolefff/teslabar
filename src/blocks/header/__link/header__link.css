@@ -14,3 +14,11 @@
 .header__link:nth-of-type(n+2) {
     margin-left: 35px;
 }
+
+@media (max-width: 744px) {
+    .header__link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
