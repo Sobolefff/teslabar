@@ -1,7 +1,7 @@
 .gallery__slide {
     margin: 0;
     box-sizing: border-box;
-
+    max-width: 360px;
 }
 
 .gallery__slide:hover {

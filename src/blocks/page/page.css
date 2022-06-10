@@ -11,10 +11,18 @@
     align-items: stretch;
     color: #F8F8F8;
     font-family: 'Montserrat', Arial, sans-serif;
+    position: relative;
 }
 
 @media (max-width: 1024px) {
     .page {
         padding: 0 0 65px;
     }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
 }

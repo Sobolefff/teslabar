@@ -1,0 +1,16 @@
+.header__social {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header__link-social {
+    
+}
+
+.header__link-social:nth-of-type(n+2) {
+    margin-left: 35px;
+}

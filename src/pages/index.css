@@ -1,12 +1,14 @@
 @import url(~slick-carousel/slick/slick.css);
 @import url(~slick-carousel/slick/slick-theme.css);
 @import url(~slick-lightbox/dist/slick-lightbox.css);
+@import url(~slicknav/dist/slicknav.min.css);
 
 @import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-
+@import url(../blocks/header/__social/header__social.css);
+@import url(../blocks/burger-icon/burger-icon.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__icon/header__icon.css);

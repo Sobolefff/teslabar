@@ -1,13 +1,12 @@
 .gallery__sliderline {
-    position: relative;
+
 }
 
 .slick-track {
     line-height: 0;
 }
-
 .slick-dots {
-    display: flex;
+
     align-items: center;
     justify-content: center;
     bottom: -45px;
