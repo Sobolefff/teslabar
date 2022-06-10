@@ -10,6 +10,12 @@
    */
 
 /*!
+ * SlickNav Responsive Mobile Menu v1.0.8
+ * (c) 2016 Josh Cope
+ * licensed under MIT
+ */
+
+/*!
  * jQuery JavaScript Library v3.6.0
  * https://jquery.com/
  *
