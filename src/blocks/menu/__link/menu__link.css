@@ -30,3 +30,8 @@
         line-height: 19px;
     }
 }
+
+.menu__link:hover {
+    border: 2px solid #AD0606;
+    color: #AD0606;
+}

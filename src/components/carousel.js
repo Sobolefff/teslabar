@@ -1,5 +1,6 @@
 import 'slick-carousel';
 import 'slick-lightbox';
+import 'jquery'
 
 //карусель фото
 function carousel() {
@@ -24,6 +25,15 @@ $('.gallery__sliderline').slick({
 });
 }
 
+function carouselMobile() {
+$('.gallery__viewer').slick({
+  slidesToShow: 1,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 2500,
+});
+}
+
 function popup() {
   $('.gallery__sliderline').slickLightbox({
     itemSelector: 'a',
@@ -32,4 +42,4 @@ function popup() {
 }
 
 
-export { carousel, popup};
+export { carousel, popup, carouselMobile};

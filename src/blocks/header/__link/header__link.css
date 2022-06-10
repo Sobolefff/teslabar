@@ -19,3 +19,11 @@
         line-height: 20px;
     }
 }
+
+.header__link:hover {
+    color: #AD0606;
+}
+
+.header__link:active {
+    color: #640A0A;
+}

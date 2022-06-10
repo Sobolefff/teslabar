@@ -21,3 +21,11 @@
         max-width: 573px;
     }
 }
+
+@media (max-width: 550px) {
+    .about__description {
+        font-size: 13px;
+        line-height: 127.4%;
+        max-width: 345px;
+    }
+}

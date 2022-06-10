@@ -22,3 +22,12 @@
         margin-top: 5px;
     }
 }
+
+@media (max-width: 550px) {
+    .header__contact {
+        margin: 25px auto 0;
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 167px;
+    }
+}

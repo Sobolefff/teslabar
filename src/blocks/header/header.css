@@ -14,3 +14,12 @@
         min-height: 56.6vw;
     }
 }
+
+@media (max-width: 550px) {
+    .header {
+        background-image: url(../../images/header_back_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 350px;
+    }
+}

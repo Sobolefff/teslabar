@@ -18,3 +18,12 @@
     }
 }
 
+@media (max-width: 550px) {
+    .menu {
+        margin: 55px 0 0 0;
+        min-height: 350px;
+        background-image: url(../../images/menu_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

@@ -14,3 +14,11 @@
         line-height: 22px;
     }
 }
+
+@media (max-width: 550px) {
+    .header__description {
+        margin: 5px auto 0;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

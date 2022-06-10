@@ -1,5 +1,5 @@
 .gallery__sliderline {
-
+    display: block;
 }
 
 .slick-track {
@@ -31,4 +31,10 @@ li.slick-active button {
     border: none;
     width: 15px;
     height: 15px;
+}
+
+@media (max-width: 430px) {
+    .gallery__sliderline {
+        display: none;
+    }
 }

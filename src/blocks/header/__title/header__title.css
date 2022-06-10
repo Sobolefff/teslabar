@@ -17,3 +17,11 @@
         line-height: 51px;
     }
 }
+
+@media (max-width: 550px) {
+    .header__title {
+        margin: 79px auto 0;
+        font-size: 30px;
+        line-height: 39px;
+    }
+}

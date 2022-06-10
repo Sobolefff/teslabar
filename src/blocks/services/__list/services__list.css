@@ -11,3 +11,10 @@
         max-width: 567px;
     }
 }
+
+@media (max-width: 550px) {
+    .services__list {
+        margin: 25px 0 0 0;
+        max-width: 345px;
+    }
+}

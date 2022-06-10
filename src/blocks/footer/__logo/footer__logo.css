@@ -2,3 +2,9 @@
     margin-top: 55px;
     border-radius: 50%;
 }
+
+@media (max-width: 550px) {
+    .footer__logo {
+        margin-top: 40px;
+    }
+}

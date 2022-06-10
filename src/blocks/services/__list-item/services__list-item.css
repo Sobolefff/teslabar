@@ -1,6 +1,5 @@
 .services__list-item {
     margin-left: 0;
-    padding-left: 10px;
     box-sizing: border-box;
     text-align: center;
     font-family: 'Montserrat';
@@ -22,5 +21,13 @@
     }
     .services__list-item:nth-of-type(n+2) {
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .services__list-item {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
     }
 }

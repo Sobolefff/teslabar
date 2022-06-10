@@ -16,3 +16,11 @@
         line-height: 20px;
     }
 }
+
+@media (max-width: 550px) {
+    .footer__copyright {
+        margin: 63px 0 0;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

@@ -14,3 +14,10 @@
         padding: 65px 0;
     }
 }
+
+@media (max-width: 550px) {
+    .contacts {
+        max-width: 330px;
+        padding: 55px 0;
+    }
+}
