@@ -1,7 +1,6 @@
 .page {  
     max-width: 1440px;
     width: 100%;
-    height: auto;
     background-color: #000000;
     margin: 0 auto;
     padding: 0 0 115px;
@@ -11,7 +10,8 @@
     align-items: stretch;
     color: #F8F8F8;
     font-family: 'Montserrat', Arial, sans-serif;
-    position: relative;
+    overflow-x: hidden;
+    position: static;
 }
 
 @media (max-width: 1024px) {

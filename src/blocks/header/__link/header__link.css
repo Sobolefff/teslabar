@@ -21,9 +21,9 @@
 }
 
 .header__link:hover {
-    color: #AD0606;
+    text-decoration-line: underline;
 }
 
 .header__link:active {
-    color: #640A0A;
+    color: #8F8F8F;;
 }

@@ -16,12 +16,6 @@
     }
 }
 
-@media (max-width: 768px) {
-    .benefit__description {
-        text-decoration-line: underline;
-    }
-}
-
 @media (max-width: 550px) {
     .benefit__description {
         margin-top: 10px;

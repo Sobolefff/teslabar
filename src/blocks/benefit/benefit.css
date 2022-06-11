@@ -12,8 +12,27 @@
     color: white;
 }
 
+.benefit_text {
+    padding: 0;
+    margin: 0;
+    max-width: 285px;
+    width: 100%;
+    min-height: 169px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+
 @media (max-width: 1024px) {
     .benefit {
+        max-width: 142px;
+        min-height: 110px;
+        text-decoration-line: underline;
+    }
+    .benefit_text {
         max-width: 142px;
         min-height: 110px;
     }
@@ -22,7 +41,6 @@
 @media (max-width: 550px) {
     .benefit:nth-of-type(n+2) {
         margin-top: 35px;
-        
     }
 }
 
@@ -31,10 +49,15 @@
         justify-content: flex-start;
         min-height: 76px;
     }
+    .benefit_text {
+        justify-content: flex-start;
+        min-height: 76px;
+        margin-top: 35px;
+    }
 }
 
 .benefit:hover {
-    color: #AD0606;
-    
+    color: #AD0606;    
 }
+
 

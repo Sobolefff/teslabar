@@ -8,9 +8,9 @@
     <meta name="keywords" content="">
     <meta name="author" content="Петр Соболев">
     <title>Тесла Бар</title>
+    <link rel="shortcut icon" href="<%=require('./images/icons/favicon.svg')%>" type="image/x-icon">
 </head>
 <body class="page">
-
     <header class="header">
 
         <nav class="header__links">
@@ -27,37 +27,35 @@
             </ul>
 
             <div class="burger-icon">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
                 <ul class="mobile-menu">
-                    <li><a href="#about" class="mobile__link">О нас</a></li>
-                    <li><a href="#gallery" class="mobile__link">Фото</a></li>
-                    <li><a href="#menu" class="mobile__link">Меню</a></li>
-                    <li><a href="#contacts" class="mobile__link">Контакты</a></li>
+                    <li class="mobile__link"><a href="#about">О&nbspнас</a></li>
+                    <li class="mobile__link"><a href="#gallery">Фото</a></li>
+                    <li class="mobile__link"><a href="#menu">Меню</a></li>
+                    <li class="mobile__link"><a href="#contacts">Контакты</a></li>
                 </ul>
             </div>
         </nav>
         <h1 class="header__title">Tesla Bar</h1>
         <p class="header__description">Коктейльный бар с многолетней историей</p>
-        <p class="header__contact">ул. Рубинштейна д. 30 Санкт-Петербург</p>
-        <a href="tel:+78129427651" class="header__contact">+7&nbsp(812)&nbsp942&#8209;76&#8209;51</a>
+        <p class="header__contact">ул. Рубинштейна д. 30 Санкт&#8209;Петербург</p>
+        <a href="tel:+78129427651" class="header__contact"><span class="underline">+7&nbsp(812)&nbsp942&#8209;76&#8209;51</span></a>
+        
     </header>
     <main class="content">
         <section class="about" id="about">
             <ul class="about__benefits">
                 <li class="benefit">
-                    <a href="https://disk.yandex.ru/i/oefST2faLM51CQ" class="benefit" target="_blank">
+                    <a href="https://docs.yandex.ru/docs/view?url=ya-disk%3A%2F%2F%2Fdisk%2F%D0%9C%D0%B5%D0%BD%D1%8E%2FBar-menu.pdf&name=Bar-menu.pdf&uid=672399157&nosw=1" class="benefit" target="_blank">
                         <div class="benefit__icon cocktail"></div>
                         <p class="benefit__description">Более 30 видов коктейлей</p>
                     </a>
                 </li>
-                <li class="benefit">
+                <li class="benefit_text">
                         <div class="benefit__icon vinil"></div>
                         <p class="benefit__description">Dj-сеты по выходным</p>
                 </li>
                 <li class="benefit">
-                    <a href="https://disk.yandex.ru/i/RJOjy-N7fahajA" class="benefit" target="_blank">
+                    <a href="https://docs.yandex.ru/docs/view?url=ya-disk%3A%2F%2F%2Fdisk%2F%D0%9C%D0%B5%D0%BD%D1%8E%2Fkuhn.pdf&name=kuhn.pdf&uid=672399157&nosw=1" class="benefit" target="_blank">
                         <div class="benefit__icon burger"></div>
                         <p class="benefit__description">Авторское меню закусок</p>
                     </a>
@@ -66,7 +64,7 @@
             <h2 class="about__title">Tesla Bar</h2>
             <p class="about__description">
                 Tesla Bar — место, уже ставшее легендарным. Коктейльный бар, расположенный в центре ресторанного Петербурга, 
-                назван в честь выдающегося хорватского учёного Николы Теслы, и имя — не единственная отсылка к нему.
+                назван в честь выдающегося учёного сербского происхождения Николы Теслы, и имя — не единственная отсылка к нему.
             </p>
             <p class="about__description">
                 Наша главная общая черта — это новаторство, изобретательность и любовь к&nbspэкспериментам, 
@@ -132,13 +130,13 @@
         </section>
 
         <section class="menu" id="menu">
-            <a href="https://disk.yandex.ru/i/oefST2faLM51CQ" class="menu__link" target="_blank">Бар</a>
-            <a href="https://disk.yandex.ru/i/RJOjy-N7fahajA" class="menu__link" target="_blank">Кухня</a>
+            <a href="https://docs.yandex.ru/docs/view?url=ya-disk%3A%2F%2F%2Fdisk%2F%D0%9C%D0%B5%D0%BD%D1%8E%2FBar-menu.pdf&name=Bar-menu.pdf&uid=672399157&nosw=1" class="menu__link" target="_blank">Бар</a>
+            <a href="https://docs.yandex.ru/docs/view?url=ya-disk%3A%2F%2F%2Fdisk%2F%D0%9C%D0%B5%D0%BD%D1%8E%2Fkuhn.pdf&name=kuhn.pdf&uid=672399157&nosw=1" class="menu__link" target="_blank">Кухня</a>
         </section>
 
         <section class="contacts" id="contacts">
-            <a href="tel:+78129427651" class="contacts__contact">+7 (812) 942-76-51</a>
-            <a href="tel:+79112378379" class="contacts__contact">Проведение мероприятий +7&nbsp911&nbsp237&#8209;83&#8209;79</a>
+            <a href="tel:+78129427651" class="contacts__contact"><span class="underline">+7 (812) 942-76-51</span></a>
+            <a href="tel:+79112378379" class="contacts__contact">Проведение мероприятий <span class="underline">+7&nbsp911&nbsp237&#8209;83&#8209;79</span></a>
             <p class="contacts__contact">ул. Рубинштейна д. 30, Санкт&#8209Петербург</p>
             <p class="contacts__contact">Часы работы</p>
             <p class="contacts__contact">с 12:00 до 02:00</p>
