@@ -15,12 +15,6 @@
 }
 
 .mobile-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 0;
-    opacity: 0;
-    visibility: hidden;
     text-decoration: none;
     list-style-type: none;
     min-height: 350px;
@@ -28,20 +22,22 @@
     padding: 0;
     position: absolute;
     background-color: rgba(16, 2, 2, 0.9);;
-    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     top: 0;
-    transition: all ease .5s;
-    overflow: hidden;
+    right: -50vw;
+    width: 50vw;
+    visibility: hidden;
+    transition: all ease 0.5s;
 }
 
 .mobile-menu_opened {
-    width: 50vw;
+    right: 0;
     visibility: visible;
-    opacity: 1;
 }
 
 .mobile__link {
-    display: block;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;

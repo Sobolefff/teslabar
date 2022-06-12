@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Sobolefff/teslabar#readme",
   "dependencies": {
-    "core-js": "^3.22.8",
+    "core-js": "^2.6.12",
     "jquery": "^3.6.0"
   },
   "devDependencies": {

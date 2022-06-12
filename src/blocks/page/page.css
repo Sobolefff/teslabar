@@ -4,14 +4,11 @@
     background-color: #000000;
     margin: 0 auto;
     padding: 0 0 115px;
-    box-sizing: border-box;
     display: flex;
     flex-flow: column;
     align-items: stretch;
     color: #F8F8F8;
     font-family: 'Montserrat', Arial, sans-serif;
-    overflow-x: hidden;
-    position: static;
 }
 
 @media (max-width: 1024px) {
