@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { loader } = require('mini-css-extract-plugin');
 module.exports = {
     entry: { main: './src/components/index.js' },
     output: {
@@ -42,6 +43,13 @@ module.exports = {
               options: { importLoaders: 1 }
             },
             'postcss-loader']
+          },
+          {
+          test: /\.pdf$/,
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]'
+          }
           }
         ]
       },

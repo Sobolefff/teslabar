@@ -1,4 +1,6 @@
 import '../pages/index.css';
+import '../pdf/bar.pdf';
+import '../pdf/kuhn.pdf';
 
 import { carousel, carouselMobile, popup } from './carousel.js';
 import { shiftTop } from './topBtn.js';
