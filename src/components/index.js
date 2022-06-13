@@ -20,4 +20,4 @@ document.addEventListener('click', (evt) => {
     } else {
         mobileMenu.classList.remove('mobile-menu_opened');
     }
-});
+});;
