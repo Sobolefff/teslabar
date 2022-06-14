@@ -9,10 +9,15 @@ import '../images/banner.jpg';
 import { carousel, carouselMobile, popup } from './carousel.js';
 import { shiftTop } from './topBtn.js';
 
-carousel();
-popup();
-carouselMobile();
-shiftTop();
+setTimeout(
+    () => {
+        carousel();
+        popup();
+        carouselMobile();
+        shiftTop();
+    },
+    1000
+);
 
 const burgerIcon = document.querySelector('.burger-icon');
 const mobileMenu = document.querySelector('.mobile-menu');
