@@ -4,6 +4,7 @@ import '../pdf/kuhn.pdf';
 import '../../robots.txt';
 import '../../sitemap.xml';
 import '../images/icons/favicon.ico';
+import '../images/icons/favicon.svg';
 import '../images/banner.jpg';
 
 import { carousel, carouselMobile, popup } from './carousel.js';
