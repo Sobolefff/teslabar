@@ -10,7 +10,7 @@ $('.gallery__sliderline').slick({
     dots: true,
     arrows: false,
     rows: 2,
-    
+    lazyLoad: 'ondemand',
     responsive: [
         {
           breakpoint: 1440,
