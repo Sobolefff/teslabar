@@ -45,7 +45,7 @@ module.exports = {
             'postcss-loader']
           },
           {
-          test: /\.(pdf|txt|xml|ico)$/,
+          test: /\.(pdf|txt|xml|ico|img)$/,
           loader: 'file-loader',
           options: {
             name: '[name].[ext]'

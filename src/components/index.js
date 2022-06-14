@@ -9,6 +9,8 @@ import '../images/banner.jpg';
 import { carousel, carouselMobile, popup } from './carousel.js';
 import { shiftTop } from './topBtn.js';
 
+
+
 setTimeout(
     () => {
         carousel();
