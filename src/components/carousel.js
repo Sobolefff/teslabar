@@ -38,6 +38,13 @@ function popup() {
   $('.gallery__sliderline').slickLightbox({
     itemSelector: 'a',
     navigateByKeyboard  : true,
+    lazy: true,
+    destroyTimeout: 0,
+    speed: 0,
+    slick: {
+      fade: true,
+      speed: 0,
+    },
   });
 }
 

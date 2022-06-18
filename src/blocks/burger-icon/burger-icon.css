@@ -1,6 +1,5 @@
 .burger-icon {
     display: none;
-    cursor: pointer;
     background-image: url(../../images/icons/burgermenu_icon.svg);
     background-size: cover;
     background-position: center;
@@ -29,7 +28,18 @@
     right: -50vw;
     width: 50vw;
     visibility: hidden;
-    transition: all ease 0.5s;
+    transition: all ease 0.1s;
+}
+
+.closebtn {
+    background-image: url(../../images/icons/closeBtn.svg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 25px;
+    right: calc((100vw - 340px)/2);
+    width: 24px;
+    height: 24px;
 }
 
 .mobile-menu_opened {
