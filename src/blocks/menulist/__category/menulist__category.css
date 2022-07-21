@@ -1,0 +1,11 @@
+.menulist__category {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #443C3C;
+    text-align: center;
+    display: block;
+    margin-left: 15px;
+}

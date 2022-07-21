@@ -1,0 +1,9 @@
+.menulist {
+    align-self: center;
+    max-width: 1110px;
+    width: 100%;
+    margin: 110px 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 540px);
+    gap: 29px;
+}

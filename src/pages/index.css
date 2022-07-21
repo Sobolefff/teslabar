@@ -16,11 +16,23 @@
 @import url(../blocks/header/__contact/header__contact.css);
 
 @import url(../blocks/content/content.css);
-@import url(../blocks/about/about.css);
-@import url(../blocks/about/__benefits/about__benefits.css);
+
+@import url(../blocks/benefits/benefits.css);
+@import url(../blocks/benefits/__list/benefits__list.css);
 @import url(../blocks/benefit/benefit.css);
 @import url(../blocks/benefit/__icon/benefit__icon.css);
 @import url(../blocks/benefit/__description/benefit__description.css);
+
+@import url(../blocks/menulist/menulist__image/menulist__image.css);
+@import url(../blocks/menulist/menulist.css);
+@import url(../blocks/menulist/menulist__image-slider/menulist__image-slider.css);
+@import url(../blocks/menulist/__wrapper/menulist__wrapper.css);
+@import url(../blocks/menulist/__list/menulist__list.css);
+@import url(../blocks/menulist/__title/menulist__title.css);
+@import url(../blocks/menulist/__categories/menulist__categories.css);
+@import url(../blocks/menulist/__category/menulist__category.css);
+
+@import url(../blocks/about/about.css);
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__description/about__description.css);
 

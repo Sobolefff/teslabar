@@ -1,0 +1,11 @@
+.menulist__title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Traveling _Typewriter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 77px;
+    color: #F8F8F8;
+}

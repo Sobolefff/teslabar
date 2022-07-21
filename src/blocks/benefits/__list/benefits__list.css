@@ -1,4 +1,4 @@
-.about__benefits {
+.benefits__list {
     list-style-type: none;
     margin: 115px 0 0 0;
     padding: 0;
@@ -9,14 +9,14 @@
 }
 
 @media (max-width: 1024px) {
-    .about__benefits {
+    .benefits__list {
         max-width: 666px;
         margin: 65px 0 0 0;
     }
 }
 
 @media (max-width: 550px) {
-    .about__benefits {
+    .benefits__list {
         flex-direction: column;
         align-items: center;
         margin: 55px 0 0 0;
