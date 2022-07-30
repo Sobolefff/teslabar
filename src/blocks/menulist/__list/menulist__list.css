@@ -2,3 +2,9 @@
     display: flex;
     margin-top: 35px;
 }
+
+@media (max-width: 664px) {
+    .menulist__list{
+        margin: 37px 32px 0;
+    }
+}

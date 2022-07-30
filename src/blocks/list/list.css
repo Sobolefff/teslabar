@@ -1,13 +1,13 @@
 .list {
-    display: block;
     list-style-type: none;
     margin: 0;
     padding: 0;
     max-height: 511px;
     overflow-y: scroll;
     scrollbar-width: thin;
-    scrollbar-color: rgba(173, 6, 6, 1) black;
+    scrollbar-color: red black;
     scrollbar-width: 4px;
+    
 }
 
 @media (max-width: 1110px) {

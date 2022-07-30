@@ -16,3 +16,11 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 664px) {
+    .menulist {
+        padding: 75px 0 75px;
+        display: flex;
+        flex-direction: column;
+    }
+}
