@@ -30,18 +30,27 @@
 
 .menulist__categories .slick-arrow.slick-prev {
     left: 0;
-    background: url('../../../images/icons/left.svg') 0 0 / 100% no-repeat;
-
+    background: url('../../../images/icons/left.svg');
 }
 
 
 .menulist__categories .slick-arrow.slick-next {
     right: 0;
-    background: url('../../../images/icons/right.svg') 0 0 / 100% no-repeat;
+    background: url('../../../images/icons/right.svg');
 }
 
 @media (max-width: 1110px) {
     .menulist__categories {
         margin-top: 19px;
+    }
+}
+
+@media (max-width: 664px) {
+    .menulist__categories .slick-arrow.slick-prev {
+        margin-left: 32px;
+    }
+    
+    .menulist__categories .slick-arrow.slick-next {
+        margin-right: 32px;
     }
 }
