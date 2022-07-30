@@ -14,9 +14,9 @@
     width: 4px;
 }
 .list::-webkit-scrollbar-track {
-    background-color: black;
+    color: black;
 }
-.list::-webkit-scrollbar-thumb:window-inactive {
+.list::-webkit-scrollbar-thumb:window-active {
     color: red;
 }
 
