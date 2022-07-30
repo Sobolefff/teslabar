@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: http://bar-tesla.ru/sitemap.xml
