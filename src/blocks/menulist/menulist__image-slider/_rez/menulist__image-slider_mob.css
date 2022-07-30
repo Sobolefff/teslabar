@@ -1,0 +1,9 @@
+.menulist__image-slider_mob {
+    display: none;
+}
+
+@media (max-width: 664px) {
+    .menulist__image-slider_mob {
+        display: block;
+    }
+}

@@ -7,7 +7,7 @@ import '../images/icons/favicon.ico';
 import '../images/icons/favicon.svg';
 import '../images/banner.jpg';
 
-import { carousel, carouselMobile, popup, carouselMenuImage, carouselMenuList, carouselCategories } from './carousel.js';
+import { carousel, carouselMobile, popup, carouselMenuImage, carouselMenuList, carouselCategories, carouselMenuImageMob } from './carousel.js';
 import { shiftTop } from './topBtn.js';
 
 
@@ -15,6 +15,7 @@ import { shiftTop } from './topBtn.js';
 setTimeout(
     () => {
         carouselMenuImage();
+        carouselMenuImageMob();
         carouselCategories();
         carouselMenuList();
         carousel();

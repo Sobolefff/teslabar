@@ -57,13 +57,22 @@ function carouselMenuImage() {
     asNavFor: '.menulist__list , .menulist__categories',
   });
   }
+  function carouselMenuImageMob() {
+    $('.menulist__image-slider_mob').slick({
+      slidesToShow: 1,
+      arrows: false,
+      dots: false,
+      lazyLoad: 'ondemand',
+      asNavFor: '.menulist__list , .menulist__categories',
+    });
+    }
   function carouselCategories() {
     $('.menulist__categories').slick({
       slidesToShow: 1,
       arrows: true,
       dots: false,
       lazyLoad: 'ondemand',
-      asNavFor: '.menulist__list , .menulist__image-slider',
+      asNavFor: '.menulist__list , .menulist__image-slider , .menulist__image-slider_mob',
     });
     }
 
@@ -72,9 +81,8 @@ function carouselMenuImage() {
       slidesToShow: 1,
       arrows: false,
       dots: false,
-      //lazyLoad: 'ondemand',
-      
-      asNavFor: '.menulist__categories , .menulist__image-slider',
+      lazyLoad: 'ondemand',
+      asNavFor: '.menulist__categories , .menulist__image-slider , .menulist__image-slider_mob',
       
       
     });
@@ -82,4 +90,4 @@ function carouselMenuImage() {
   
     
 
-export { carousel, popup, carouselMobile, carouselMenuImage, carouselMenuList, carouselCategories};
+export { carousel, popup, carouselMobile, carouselMenuImage, carouselMenuList, carouselCategories, carouselMenuImageMob};

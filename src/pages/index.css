@@ -26,6 +26,7 @@
 @import url(../blocks/menulist/menulist__image/menulist__image.css);
 @import url(../blocks/menulist/menulist.css);
 @import url(../blocks/menulist/menulist__image-slider/menulist__image-slider.css);
+@import url(../blocks/menulist/menulist__image-slider/_rez/menulist__image-slider_mob.css);
 @import url(../blocks/menulist/__wrapper/menulist__wrapper.css);
 @import url(../blocks/menulist/__list/menulist__list.css);
 @import url(../blocks/menulist/__title/menulist__title.css);
