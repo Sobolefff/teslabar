@@ -48,5 +48,38 @@ function popup() {
   });
 }
 
+function carouselMenuImage() {
+  $('.menulist__image-slider').slick({
+    slidesToShow: 1,
+    arrows: false,
+    dots: false,
+    lazyLoad: 'ondemand',
+    asNavFor: '.menulist__list , .menulist__categories',
+  });
+  }
+  function carouselCategories() {
+    $('.menulist__categories').slick({
+      slidesToShow: 1,
+      arrows: true,
+      dots: false,
+      lazyLoad: 'ondemand',
+      asNavFor: '.menulist__list , .menulist__image-slider',
+    });
+    }
 
-export { carousel, popup, carouselMobile};
+  function carouselMenuList() {
+    $('.menulist__list').slick({
+      slidesToShow: 1,
+      arrows: false,
+      dots: false,
+      //lazyLoad: 'ondemand',
+      
+      asNavFor: '.menulist__categories , .menulist__image-slider',
+      
+      
+    });
+    }
+  
+    
+
+export { carousel, popup, carouselMobile, carouselMenuImage, carouselMenuList, carouselCategories};

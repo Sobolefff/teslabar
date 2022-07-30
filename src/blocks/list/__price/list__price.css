@@ -1,0 +1,20 @@
+.list__price {
+    font-family: 'Traveling _Typewriter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+}
+
+@media (max-width: 1110px) {
+    .list__price {
+        font-size: 18px;
+        line-height: 23px;
+    }
+}

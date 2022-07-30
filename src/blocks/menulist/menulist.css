@@ -1,0 +1,18 @@
+.menulist {
+    max-width: 1110px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 540px);
+    gap: 29px;
+    padding: 115px 0 115px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+@media (max-width: 1110px) {
+    .menulist {
+        padding: 85px 0 85px;
+        grid-template-columns: repeat(auto-fit, 318px);
+        justify-content: center;
+    }
+}

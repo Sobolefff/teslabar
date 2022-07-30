@@ -1,0 +1,24 @@
+.menulist__title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Traveling _Typewriter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 77px;
+    color: #F8F8F8;
+}
+
+@media (max-width: 1110px) {
+    .menulist__title {
+    font-size: 40px;
+    line-height: 51px;
+    }
+}
+
+@media (max-width: 664px) {
+    .menulist__title {
+        display: none;
+    }
+}
