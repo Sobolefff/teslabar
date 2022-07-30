@@ -10,11 +10,6 @@
     scroll-behavior: smooth;
 }
 
-
-.list::-webkit-scrollbar-thumb {
-    background-color: red;
-}
-
 @media (max-width: 1110px) {
     .list {
         max-height: 275px;
