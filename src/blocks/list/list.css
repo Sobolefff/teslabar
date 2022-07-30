@@ -10,14 +10,9 @@
     scroll-behavior: smooth;
 }
 
-.list::-webkit-scrollbar {
-    width: 4px;
-}
-.list::-webkit-scrollbar-track {
-    color: black;
-}
-.list::-webkit-scrollbar-thumb:window-active {
-    color: red;
+
+.list::-webkit-scrollbar-thumb {
+    background-color: red;
 }
 
 @media (max-width: 1110px) {
