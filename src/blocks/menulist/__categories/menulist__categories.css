@@ -31,12 +31,14 @@
 .menulist__categories .slick-arrow.slick-prev {
     left: 0;
     background-image: url('../../../images/icons/left.svg');
+    z-index: 9999;
 }
 
 
 .menulist__categories .slick-arrow.slick-next {
     right: 0;
     background-image: url('../../../images/icons/right.svg');
+    z-index: 9999;
 }
 
 @media (max-width: 1110px) {
