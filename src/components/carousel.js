@@ -59,7 +59,7 @@ function carouselMenuImage() {
   }
   function carouselCategories() {
     $('.menulist__categories').slick({
-      slidesToShow: 3,
+      slidesToShow: 1,
       arrows: true,
       dots: false,
       lazyLoad: 'ondemand',
@@ -72,7 +72,7 @@ function carouselMenuImage() {
       slidesToShow: 1,
       arrows: false,
       dots: false,
-      lazyLoad: 'ondemand',
+      //lazyLoad: 'ondemand',
       
       asNavFor: '.menulist__categories , .menulist__image-slider',
       

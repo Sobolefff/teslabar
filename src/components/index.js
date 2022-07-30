@@ -15,8 +15,8 @@ import { shiftTop } from './topBtn.js';
 setTimeout(
     () => {
         carouselMenuImage();
+        carouselCategories();
         carouselMenuList();
-        carouselCategories()
         carousel();
         popup();
         carouselMobile();

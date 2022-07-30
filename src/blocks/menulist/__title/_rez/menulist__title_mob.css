@@ -1,0 +1,16 @@
+.menulist__title_mob {
+    display: none;
+    font-family: 'Traveling _Typewriter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    color: #F8F8F8;
+    text-align: center;
+}
+
+@media (max-width: 664px) {
+    .menulist__title_mob {
+        display: inline-block;
+    }
+}
