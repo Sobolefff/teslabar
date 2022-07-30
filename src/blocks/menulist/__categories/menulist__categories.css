@@ -30,13 +30,13 @@
 
 .menulist__categories .slick-arrow.slick-prev {
     left: 0;
-    background: url('../../../images/icons/left.svg');
+    background-image: url('../../../images/icons/left.svg');
 }
 
 
 .menulist__categories .slick-arrow.slick-next {
     right: 0;
-    background: url('../../../images/icons/right.svg');
+    background-image: url('../../../images/icons/right.svg');
 }
 
 @media (max-width: 1110px) {

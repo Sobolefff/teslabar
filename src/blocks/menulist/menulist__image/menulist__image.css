@@ -5,8 +5,9 @@
 
 @media (max-width: 664px) {
     .menulist__image {
+        max-width: 100%;
         object-fit: cover;
         object-position: center;
-        max-height: 198px;
+        min-height: 198px;
     }
 }
