@@ -28,6 +28,10 @@
     min-height: 4px;
 }
 
+.list::-webkit-scrollbar-thumb:horizontal {
+    min-height: 4px;
+}
+
 @media (max-width: 1110px) {
     .list {
         max-height: 275px;
