@@ -8,7 +8,7 @@
     scrollbar-color: red black;
     scrollbar-width: 4px;
     scroll-behavior: smooth;
-    -ms-overflow-style: scrollbar;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .list::-webkit-scrollbar {
