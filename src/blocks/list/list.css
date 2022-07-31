@@ -8,7 +8,7 @@
     scrollbar-color: red black;
     scrollbar-width: 4px;
     scroll-behavior: smooth;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -ms-overflow-style: scrollbar;
 }
 
 .list::-webkit-scrollbar {
@@ -25,11 +25,11 @@
 }
 
 .list::-webkit-scrollbar-thumb:vertical {
-    min-height: 4px;
+    max-height: 4px;
 }
 
 .list::-webkit-scrollbar-thumb:horizontal {
-    min-height: 4px;
+    max-height: 4px;
 }
 
 @media (max-width: 1110px) {
