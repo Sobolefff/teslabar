@@ -3,11 +3,29 @@
     margin: 0;
     padding: 0;
     max-height: 511px;
-    overflow-y: scroll;
+    overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: red black;
     scrollbar-width: 4px;
     scroll-behavior: smooth;
+    -ms-overflow-style: scrollbar;
+}
+
+.list::-webkit-scrollbar {
+    height: 4px;
+    width: 20px;
+}
+
+.list::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background-color: red;
+}
+
+.list::-webkit-scrollbar-thumb:vertical {
+    min-height: 1.5rem;
 }
 
 @media (max-width: 1110px) {
