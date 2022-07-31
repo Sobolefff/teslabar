@@ -12,8 +12,7 @@ import { shiftTop } from './topBtn.js';
 
 
 
-setTimeout(
-    () => {
+
         carouselMenuImage();
         carouselMenuImageMob();
         carouselCategories();
@@ -22,9 +21,7 @@ setTimeout(
         popup();
         carouselMobile();
         shiftTop();
-    },
-    500
-);
+
 
 const burgerIcon = document.querySelector('.burger-icon');
 const mobileMenu = document.querySelector('.mobile-menu');
