@@ -16,7 +16,8 @@
 }
 
 @font-face {
-    src: url('./fonts/traveling-typewriter-400.ttf') format('truetype');
+    src: url('./fonts/Piazzolla.woff2') format('woff2'),
+        url('./fonts/Piazzolla.woff') format('woff');
     font-family: 'Traveling _Typewriter';
     font-weight: 400;
     font-display: swap;
